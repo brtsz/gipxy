@@ -1,0 +1,7 @@
+#!/bin/sh
+
+TWISTD="$HOME/.virtualenvs/gipxy/bin/twistd"
+LOGFILE=/tmp/gipxy.log
+PIDFILE=/tmp/gipxy.pid
+exec "${TWISTD}" --logfile "${LOGFILE}" --pidfile "${PIDFILE}" --rundir / -y gipxy.tac
+

@@ -1,0 +1,6 @@
+[broker]
+host = localhost
+port = 8001
+
+
+# vim: set ft=dosini:
